@@ -2,8 +2,6 @@ import React from "react";
 import Home from "./component/Home";
 import {
   BrowserRouter,
-  Navigate,
-  Outlet,
   Route,
   Routes,
 } from "react-router-dom";
