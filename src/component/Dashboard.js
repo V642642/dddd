@@ -11,9 +11,10 @@ const Dashboard = () => {
 
   useEffect(() => {
     const fetchdata = () => {
-      const data = fetch("https://jsonplaceholder.typicode.com/users").then(
+      const {data} = fetch("https://jsonplaceholder.typicode.com/users").then(
         (res) => res.json().then((data) => sets(data))
       );
+      return data
     };
 
     fetchdata();
