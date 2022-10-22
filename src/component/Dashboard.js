@@ -197,7 +197,7 @@ const Dashboard = () => {
             </div>
 
             <div className="bg-white shadow-lg mt-4 p-4 rounded-md ">
-              <img src={img1} className="lg:w-full w-[100%] " />
+              <img src={img1} className="lg:w-full w-[100%] "  alt = "fffh" />
             </div>
           </div>
         </div>
